@@ -1,0 +1,336 @@
+/*
+BOOTSTRAP & HTML5 BOILER PLATE JS JQ INTEGRATION ALTOGETHER
+Author: MD TARIQUL ISLAM MANON
+Email: t.i.menon007@gmail.com
+
+/* media query for responsiveness
+@media (max-width: 767px) {}
+@media (min-width: 768px) {}
+@media (min-width: 1200px) {}
+*/
+
+/*header part start*/
+img{
+    /* max-width: 100%; */
+    /* width: 100%; */
+}
+body{
+/*        background: #0A2245;*/
+/*        width: 100%;*/
+        margin: 0 auto;
+}
+.container-fluid.header_wrapper {background: #0A2244;}
+
+.container {
+    margin: 0 auto;
+}
+
+.col-md-12.col-sm-12.col-xs-12.headphone_app {margin-bottom: 129px;}
+
+.col-md-4.col-sm-4.col-xs-4 > img{padding: 22px 0;}
+
+.col-md-8.col-sm-8.col-xs-8 > ul{list-style: none;display: block;margin: 0;padding: 0;}
+.col-md-8.col-sm-8.col-xs-8 > ul >li{display: inline-block;padding: 48px 1px;width: 125px;height: 30px;line-height: 30px;text-align: center;}
+
+.col-md-8.col-sm-8.col-xs-8 > ul >li > a{
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: block;
+    font-size: 14px;
+    transition: all 0.8s;
+}
+.col-md-8.col-sm-8.col-xs-8 > ul >li > a:hover{color: #FF3334;border-bottom: 1px solid #FF3334;transform: scale(1.2);}
+
+.banner {text-align: center;padding-top: 158px;}
+.banner h1 {color: white;font-size: 36px;}
+.banner h1 span {color: #2A5DA3;}
+.banner p{color: #2A5DA3;padding-bottom: 80px;padding-top: 19px;}
+
+.btn.btn-info {
+    margin-bottom: 45px;
+    border-radius: 17px;
+    padding: 10px 20px;
+    background: #dc392d;
+    text-transform: uppercase;
+    border: 1px solid #FF3334;
+    transition: all 0.8s;
+}
+.btn.btn-info:hover{
+    background: transparent;
+    color: white;
+    border: 1px solid #2A5DA3;
+    text-decoration: none;
+
+}
+/*header part start*/
+
+/*apps part start*/
+.container-fluid.apps_wrapper {
+    background: #0A2345;
+    background-image: url(../images/music.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    }
+
+.row {
+}
+
+.col-md-12.col-sm-12.col-xs-12 {
+}
+
+.col-md-4.col-sm-4.col-xs-4 img{
+    max-width: 100%
+}
+.col-md-4.col-sm-4.col-xs-4 img:hover{
+    
+}
+
+
+/*apps part end*/
+
+/*headphone part start*/
+.container-fluid.headphone_wrapper {background: #0A2345;/* max-height: 169vh; */}
+
+.row {
+}
+
+/*.col-md-12.col-sm-12.col-xs-12.headphone_app {margin-top: -62px;}*/
+
+.col-md-6.col-sm-6.col-xs-6.headphone {}
+
+.col-md-6.col-sm-6.col-xs-12.headphone img{
+    max-width: 100%;
+    margin-left: -35px;
+}
+
+.col-md-6.col-sm-6.col-xs-6.music_app {
+}
+
+.music_text {margin-left: -7px;}
+
+.music_text h1{color: white;font-size: 36px;
+}
+
+.music_text h1 span{color: #2A5DA3;
+}
+
+.music_text p{color: #2A5DA3;padding-bottom: 80px;padding-top: 19px;}
+
+.btn.btn-info {
+}
+
+/*headphone part end*/
+
+/*features part start*/
+
+
+.container-fluid.features_wrapper {
+    text-align: center;
+    background: #0A2345;
+/*    max-height: 244vh;*/
+}
+.col-md-12.col-sm-12.col-xs-12.text-center.features_img > h5{
+    font-size: 35px;
+        color: #2A5DA3;
+}
+.col-md-12.col-sm-12.col-xs-12.text-center.features_img > h5 > span{
+        color: white;
+}
+.col-md-4.col-sm-4.col-xs-4.text-left {
+}
+.col-md-4.col-sm-4.col-xs-4.text-left > img{
+}
+
+.col-md-4.col-sm-4.col-xs-4.text-left > h5{
+     font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    margin-bottom: 16px;
+    padding-left: 0;
+}
+.col-md-4.col-sm-4.col-xs-4.text-left > h5 > span{
+    color: #2A5DA3;
+}
+.col-md-4.col-sm-4.col-xs-4.text-left > p{
+    font-size: 10px;
+    font-family: 'Montserrat', sans-serif;
+    color: #737373;
+    white-space: pre-line;
+    line-height: 25px;
+    padding-bottom: 26px;
+}
+
+
+
+
+
+.master_row {
+    position: absolute;
+    top: 201px;
+    left: 6px;
+}
+
+.row-1 {
+    padding-bottom: 30px;
+}
+/*
+
+.col-md-12.col-sm-12.col-xs-12 > text-center > h1{
+}
+
+.col-md-12.col-sm-12.col-xs-12 > text-center > h1 > span{
+}
+
+.col-md-4.col-sm-4.col-xs-4.feature_one {
+    white-space: pre-line;
+    text-align: left;
+    padding-top: 55px;
+}
+.col-md-4.col-sm-4.col-xs-4.feature_two {
+    white-space: pre-line;
+    text-align: left;
+    padding-top: 55px;
+}
+.col-md-4.col-sm-4.col-xs-4.feature_one img{
+    max-width: 100%;
+    
+}
+img.icon{
+    width: 75px;
+}*/
+
+.features_img>img {
+    margin: 0 auto;
+    width: 46%;
+}
+/*features part end*/
+
+.interective_wrapper {
+    background: #0A2345;
+}
+.interective_wrapper h1 {
+    color: white;
+}
+.interective_wrapper p {
+    color: gray;
+    padding-bottom: 20px;
+}
+.btn_interactive {
+    background: #FF3334;
+    border: 0;
+    padding: 12px 28px;
+    border-radius: 20px;
+    color: white;
+    font-size: 12px;
+}
+.btn_interactive:hover {
+    background: transparent;
+    border: 1px solid blue;
+}
+.interective_image>img {
+    width: 600px;
+    margin-left: 159px;
+}
+
+.container-fluid.slider_wrapper {
+        background: url(../images/carousel2.jpeg);
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+}
+
+
+.col-md-12.col-sm-12.col-xs-12.slider.text-center {padding: 33px 0;}
+
+
+.col-md-12.col-sm-12.col-xs-12.slider.text-center h2 {
+    white-space: pre-line;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+}
+.col-md-12.col-sm-12.col-xs-12.slider.text-center p{color: red;font-weight: bold;font-size: 15px;}
+.btn.btn-info {
+}
+
+
+.container-fluid.discover_wrapper {background: #0A2345;}
+
+.col-md-12.col-sm-12.col-xs-12.music_stuff.text-center {}
+
+.col-md-12.col-sm-12.col-xs-12.music_stuff.text-center h3{padding-top: 80px;color: white;font-size: 27px;font-weight: bold;}
+
+.col-md-12.col-sm-12.col-xs-12.music_stuff.text-center p{white-space: pre;color: white;font-size: 12px;}
+
+.col-md-12.col-sm-12.col-xs-12.music_stuff.text-center img{
+    margin-top: -84px;
+    margin-left: 184px;
+    width: 722px;
+}
+
+.col-md-12.col-sm-12.col-xs-12.music_stuff.text-center a {
+}
+.img-responsive {
+}
+
+.btn.btn-info {
+}
+/*copyright part start*/
+.contaoiner_fluid.copyright_wrapper {
+    background: #0A2345;
+}
+
+
+.col-md-12.col-sm-12.col-xs-12.footer {
+    
+}
+
+.col-md-4.col-sm-4.col-xs-12.copyright_left > ul{
+}
+
+.col-md-4.col-sm-4.col-xs-12.copyright_left > ul > li{
+/*    font-size: 11px;
+    font-weight: 100;
+    color: #2A5DA3;
+    text-decoration: none;
+    transition: all 0.8s;*/
+}
+
+.col-md-4.col-sm-4.col-xs-12.copyright_left > ul > li > a{
+     font-size: 11px;
+    font-weight: 100;
+    color: #2A5DA3;
+    text-decoration: none;
+    transition: all 0.8s;
+    
+}
+
+
+
+.col-md-4.col-sm-4.col-xs-12.copyright_left > ul > li > a:hover{
+        text-decoration: none;
+    color: #F44336;
+    transform: scale(1.2);
+}
+
+.list-unstyled.list-inline {
+}
+
+.col-md-4.col-md-offset-4.col-sm-4.col-sm-offset-4.col-xs-12.col-xs-offset-12.copyright_right {
+/*    color: white;
+    font-size: 10px;
+    font-weight: bold;*/
+}
+
+.col-md-4.col-md-offset-4.col-sm-4.col-sm-offset-4.col-xs-12.col-xs-offset-12.copyright_right > p {
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.col-md-4.col-md-offset-4.col-sm-4.col-sm-offset-4.col-xs-12.col-xs-offset-12.copyright_right > p > span{
+    color: red;
+}
+
+/*copyright part end*/
